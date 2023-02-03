@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T16:04:08.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="H3V1hCHiC6h11M5rHI1E" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-03T16:42:02.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ScuH99XxaM2kgLXSnPtY" version="20.8.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1194" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="882" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -33,7 +33,7 @@
         <mxCell id="mYB9eSgGi7vmk8bNP6sI-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mYB9eSgGi7vmk8bNP6sI-5">
           <mxGeometry y="100" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mYB9eSgGi7vmk8bNP6sI-8" value="+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mYB9eSgGi7vmk8bNP6sI-5">
+        <mxCell id="mYB9eSgGi7vmk8bNP6sI-8" value="+GasStation(gasStation GasStation&#xa;, name String,date String, fuelType String,&#xa;fuelPrice Double, amountInLitres Double)&#xa;&#xa;+getGasStationName():String&#xa;+getGasDate():String&#xa;+getAmountInLitres(): double&#xa;+getFuelType(): String&#xa;+getFuelPrice():double&#xa;&#xa;+setGasStationName(name String): void&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mYB9eSgGi7vmk8bNP6sI-5">
           <mxGeometry y="130" width="260" height="222" as="geometry" />
         </mxCell>
       </root>
