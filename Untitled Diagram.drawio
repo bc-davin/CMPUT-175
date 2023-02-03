@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T16:42:02.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ScuH99XxaM2kgLXSnPtY" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-03T16:51:35.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="kKxcq3uTeGPHG0aes4Sa" version="20.8.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="882" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
           <mxGeometry y="20" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mYB9eSgGi7vmk8bNP6sI-0" value="MainActivity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="60" y="440" width="290" height="238" as="geometry" />
+          <mxGeometry x="50" y="520" width="290" height="238" as="geometry" />
         </mxCell>
         <mxCell id="mYB9eSgGi7vmk8bNP6sI-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mYB9eSgGi7vmk8bNP6sI-0">
           <mxGeometry y="26" width="290" height="8" as="geometry" />
@@ -25,16 +25,25 @@
           <mxGeometry y="98" width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="mYB9eSgGi7vmk8bNP6sI-5" value="GasStation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="500" y="300" width="260" height="352" as="geometry" />
+          <mxGeometry x="530" y="360" width="290" height="370" as="geometry" />
         </mxCell>
         <mxCell id="mYB9eSgGi7vmk8bNP6sI-6" value="-gasStationName: String&#xa;-dateTime: String&#xa;-fuelType:String&#xa;-amountinLitres: double&#xa;-fuelPrice:double&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mYB9eSgGi7vmk8bNP6sI-5">
-          <mxGeometry y="26" width="260" height="74" as="geometry" />
+          <mxGeometry y="26" width="290" height="74" as="geometry" />
         </mxCell>
         <mxCell id="mYB9eSgGi7vmk8bNP6sI-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mYB9eSgGi7vmk8bNP6sI-5">
-          <mxGeometry y="100" width="260" height="30" as="geometry" />
+          <mxGeometry y="100" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mYB9eSgGi7vmk8bNP6sI-8" value="+GasStation(gasStation GasStation&#xa;, name String,date String, fuelType String,&#xa;fuelPrice Double, amountInLitres Double)&#xa;&#xa;+getGasStationName():String&#xa;+getGasDate():String&#xa;+getAmountInLitres(): double&#xa;+getFuelType(): String&#xa;+getFuelPrice():double&#xa;&#xa;+setGasStationName(name String): void&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mYB9eSgGi7vmk8bNP6sI-5">
-          <mxGeometry y="130" width="260" height="222" as="geometry" />
+        <mxCell id="mYB9eSgGi7vmk8bNP6sI-8" value="+GasStation(gasStation GasStation&#xa;, name String,date String, fuelType String,&#xa;fuelPrice Double, amountInLitres Double)&#xa;&#xa;+getGasStationName():String&#xa;+getGasDate():String&#xa;+getAmountInLitres(): double&#xa;+getFuelType(): String&#xa;+getFuelPrice():double&#xa;&#xa;+setGasStationName(name String): void&#xa;+setAmountInLitres( amountInLitres double):void&#xa;+setGasDate(dateTime String):void&#xa;+setFuelPrice(feulPrice double): void&#xa;+setFuleType(fuelType String):void&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mYB9eSgGi7vmk8bNP6sI-5">
+          <mxGeometry y="130" width="290" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="mYB9eSgGi7vmk8bNP6sI-10" value="GasStationArrayAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="890" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mYB9eSgGi7vmk8bNP6sI-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mYB9eSgGi7vmk8bNP6sI-10">
+          <mxGeometry y="26" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mYB9eSgGi7vmk8bNP6sI-13" value="+GasStationArrayAdapter(context Context,&#xa; gasStationsArrayList&lt;GasStation&gt;)&#xa;&#xa;+getView(position int, covertView View,&#xa;parent ViewGroup): View" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mYB9eSgGi7vmk8bNP6sI-10">
+          <mxGeometry y="34" width="230" height="86" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
